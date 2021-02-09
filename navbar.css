@@ -1,0 +1,109 @@
+@font-face{
+	src: url('fonts/Lato-Regular.ttf');
+	font-family: lato;
+	src: url('fonts');
+}
+
+
+/*navbar*/
+
+.nav{
+	background-color: white !important;
+}
+
+.nav-list ul li{
+	font-size: 15px;
+	display: inline-block;
+}
+
+.nav-list ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-list1{
+	text-transform: uppercase;
+}
+
+.nav-list1:hover {
+	border-bottom: 3px solid #0B63DC;
+	padding-bottom: 5px;
+}
+
+.aktif{
+	border-bottom: 3px solid #0B63DC;
+}
+
+.nav-link{
+	padding-bottom: 5px;
+	margin-right: 22px;
+	position: relative;
+	margin-top: 32px;
+	float: right;
+}
+
+.nav-logot{
+	border-radius: 20px;
+	padding: 5px 10px;
+	color: #fff !important;
+    background-color: #007bff;
+    border-color: #007bff;
+	text-transform: uppercase;
+	background-color: 
+	margin-left: 350px !important;
+	margin-right: 20px;
+}
+
+.nav-login{
+	border-radius: 20px;
+	padding: 5px 17px;
+	color: #fff !important;
+    background-color: #007bff;
+    border-color: #007bff;
+	text-transform: uppercase;
+	/*margin-left: 350px !important;*/
+	margin-right: 20px;
+}
+
+.logo img{
+	margin-left: 20px;
+}
+
+.nav-tot{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.nav-tit{
+	position: absolute;
+	top: 25px;
+}
+
+.nav-tit{
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.fas-login{
+	position: relative;
+	top: 2px;
+	right: 7px;
+	font-size: 20px;
+}
+
+.fas-logot{
+	padding-left: 2px;
+	position: relative;
+	top: 2px;
+	right: 2px;
+	font-size: 20px;
+}
+
+.laporan{
+	padding-bottom: 5px;
+}
+
+.transaksi{
+	padding-bottom: 5px;
+}
+/*akhir navbar*/

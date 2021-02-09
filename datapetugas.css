@@ -1,0 +1,44 @@
+
+
+
+/*title*/
+.title{
+	margin-top: 40px;
+}
+
+.title h2{
+	font-size: 30px;
+}
+
+
+
+
+/*table*/
+.tab-cont{
+	margin-top: 20px;
+}
+
+.table{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.tab-title{
+	font-size: 25px;
+}
+
+
+/*tambah siswa*/
+
+.tmbh-siswa{
+	margin-top: 20px;
+}
+
+.tmbh-siswa a{
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.tittle-lap{
+	font-size: 25px;
+}

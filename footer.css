@@ -1,0 +1,35 @@
+.footer{
+	color: white;
+	display: flex;
+	box-sizing: border-box;
+	padding: 50px;
+	margin-top: 50px;
+	height: 200px;
+	background-color: #151716;
+}
+
+.foot-1{
+	flex: 1;
+}
+
+.foot-2{
+	flex: 1;
+}
+
+.foot-3{
+	flex: 1;
+}
+
+.copyright{
+	color: #91d1b1;
+	background-color: #222926;
+}
+
+.copyright a{
+	color: #91d1b1;
+	text-decoration: none;
+}
+
+.copyright a:hover{
+	color: #5BA373;
+}

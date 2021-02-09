@@ -1,0 +1,94 @@
+body{
+    background-attachment: fixed;
+    background-size: cover;
+	background-image: url(img/bglog.jpg);
+}
+
+.bout-cont{
+	background-color: white;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	position: relative;
+	margin-top: 60px !important;
+	margin: auto;
+	width: 70%;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-bout{
+	margin-top: 20px;
+	position: relative;
+	/*bottom: 70px;*/
+	width: 14%;
+}
+
+.bout-title{
+	margin-top: -10px;
+	font-size: 50px !important;
+}
+
+.bout-isi1{
+	margin-top: 40px;
+}
+
+.bout-isi1 span{
+
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.bout-isi p{
+	font-size: 30px;
+}
+
+.bout-isi2{
+	margin-top: -29px;
+}
+
+.bout-penj{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 23%;
+	text-align: left !important;
+}
+
+.bout-penj span{
+	font-weight: bold;
+}
+
+.ceo{
+	margin-top: 50px;
+}
+
+.ceo img{
+	width: 20%;
+}
+
+.ceo-title{
+	font-size: 20px;
+}
+
+.fonder{
+	right: 150px;
+	position: relative;
+}
+
+.advir{
+	left: 150px;
+	margin-top: -310px;
+	position: relative;
+}
+
+.thanks{
+	margin-top: 50px;
+}
+
+.thanks p{
+	font-size: 20px;
+}
+
+.thanks img{
+	height: 280px;
+}
+
+

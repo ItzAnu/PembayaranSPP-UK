@@ -1,0 +1,207 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: viga;
+}
+
+
+/*jumbotron*/
+.jumb-cont{
+	height: 500px;
+	background-size: cover;
+	position: relative;
+	background-image: url(img/jumbimg1.jpg);
+}
+
+.jumb-cont::after{
+	position: absolute;
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	bottom: 0;
+}
+
+.jumb-cont .jumb{
+	z-index: 1;
+	position: relative;
+}
+
+.jumb h2{
+	text-shadow: 2px 4px 6px red;
+	padding-top: 70px;
+	font-size: 40px;
+	color: white;
+}
+
+.jumb h3{
+	text-shadow: 5px 2px 5px black;
+	font-size: 25px;
+	padding-top: 10px;
+	color: white;
+}
+
+.tentang{
+	padding-top: 90px;
+}
+
+.jumb span{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.tentang a{
+	margin-right: 20px;
+	padding: 10px;
+	border-color: white;
+	border-radius: 10px;
+	/*background: transparent;*/
+	color: white;
+	border: solid;
+	margin-top: 30px;
+	width: 200px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.tentang a:hover{
+	background-color: white;
+	color: #8e3aa6;
+	transition: all 0.5s ease-out;
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*akhir jumbotron*/
+
+/*info panel*/
+.panel-cont{
+	margin-left: 160px;
+	align-items: center;
+	width: 1000px;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -80px;
+	background-color: white;
+	padding: 20px;
+
+}
+
+.panel-isi figure{
+	position: relative;
+	padding-left: 30px;
+	margin-right: 70px;
+	display: inline-block;
+}
+
+.capt{
+	padding-top: -10px;
+}
+
+.panel-isi img{
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+.titel{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+/*akhir info panel*/
+
+/*isi cont*/
+.isi-cont{
+	color: white;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url('img/bgg.jpg');
+	padding: 60px;
+	margin-top: 100px;
+	height: 400px;
+}
+
+.isi p{
+	text-shadow: 5px 7px 9px black;
+	padding-top: 10px;
+	font-size: 2rem;
+}
+
+.isi h4{
+	font-weight: bold;
+	text-shadow: 5px 7px 9px black;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.gabung{
+	margin-top: 60px;
+}
+
+.gabung a{
+	transition: 0.4s;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	width: 250px;
+	padding: 10px 30px;
+	background-color: #169859;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.gabung a:hover{
+	box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #2FCF5B;
+}
+
+/*akhir cont*/
+
+
+
+/*kerja sama*/
+.kerja-cont{
+	font-size: 20px;
+	font-family: lato !important;
+	margin-top: 80px;
+}
+
+.sama hr{
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #007bff;
+	height: 3px;
+	width: 90px;
+}
+
+.kerja-fig{
+	margin-left: 55px;
+	margin-top: 20px;
+}
+
+.kerja-fig img{
+	filter: grayscale(100%);
+	opacity: 0.5;
+	width: 150px;
+}
+
+.kerja-fig figure{
+	margin-right: 60px;
+	display: inline-block;
+}
+
+
+
+/*akhir kerja sama*/
+
+

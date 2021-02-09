@@ -1,0 +1,286 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: viga;
+	width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	background-image: url('img/bglog.jpg');
+}
+
+.login-form{
+	padding-bottom: 65px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 40px; 
+	width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-index h4{
+	display: block;
+ 	font-weight: bold;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.beranda{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.beranda a{
+	border-radius: 50px;
+	padding: 5px 17px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+}
+
+.beranda i{
+	padding-right: 5px;
+}
+
+.login-ad{
+	margin-top: 20px;
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+.login-ad a{
+	border-radius: 50px;
+	padding: 5px 17px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+}
+
+.login-ad i{
+	padding-left: 5px;
+}
+
+.loginuser{
+	margin-bottom: 30px;
+}
+
+.loginuser a{
+	border-radius: 50px;
+	padding: 5px 17px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+}
+
+.loginuser i{
+	padding-right: 5px; 
+}
+
+.input{
+	position: relative;
+	margin-top: 50px;
+    
+}
+
+.input input{
+	font-family: viga;
+	border-bottom: 2px solid #d9d9d9 !important;
+	font-size: 16px;
+    color: #333333;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    padding: 0 7px 0 43px;
+    outline: none;
+    border: none;
+}
+
+
+.input label{
+	text-align: left;
+	display: block;
+}
+
+.input-ic1 i{
+	opacity: 0.4;
+	font-size: 20px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:  35px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.input-ic2 i{
+	opacity: 0.4;
+	font-size: 20px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:  130px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.input-ic3 i{
+	opacity: 0.4;
+	font-size: 20px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:  227px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.input-ic4 i{
+	opacity: 0.4;
+	font-size: 20px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:  322px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.input-ic5 i{
+	opacity: 0.4;
+	font-size: 23px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:  420px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.input-ic6 i{
+	opacity: 0.4;
+	font-size: 23px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:  518px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.input-ic7{
+	opacity: 0.8;
+	font-size: 20px;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top:  614px;
+	left: 10px;
+	pointer-events: none;
+}
+
+.username{
+	margin-top: 20px;
+}
+
+.pass{
+	margin-top: 20px;
+}
+
+.con-pass{
+	margin-top: 20px;
+}
+
+.email{
+	margin-top: 20px;
+}
+
+.nomor{
+	margin-top: 20px;
+}
+
+.nisn{
+	margin-top: 20px;
+}
+
+.lupa{
+	text-align: right;
+	margin-top: 10px;
+}
+
+.lupa a{
+	color: #666666;
+	text-decoration: none;
+}
+
+.btn{
+	margin-top: 40px;
+	border-radius: 50px;
+}
+
+.btn button{
+	transition: 0.3s;
+	font-size: 18px;
+	font-family: viga;
+	text-transform: uppercase;
+	border-radius: 50px;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+.btn button:hover{
+	color: white;
+	background-color: #4DDD21;
+	cursor: pointer;
+	cursor: pointer;
+}
+
+.daftar{
+	color: #666666;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+
+.alter-log{
+	margin-top: 100px;
+}
+
+.fab{
+	margin: 30px 10px;
+	font-size: 50px;
+}
+
+.user{
+	margin-top: 20px;
+}
+
+.daftar-2 a{
+	color: black;
+	text-decoration: none;
+}

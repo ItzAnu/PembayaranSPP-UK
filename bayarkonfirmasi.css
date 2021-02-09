@@ -1,0 +1,63 @@
+
+
+  include 'koneksi.php';
+  session_start();
+
+  if ($_SESSION['nama'] == '') {
+    header("location: loginuser.php");
+  }
+
+ ?>
+
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Konfirmasi</title>
+ 	<link rel="stylesheet" type="text/css" href="bayarspp.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
+	<link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+ </head>
+ <body>
+ 	<!-- Navbar -->
+
+	<nav class="">	
+		<div class="nav">
+			<div class="nav-list">
+				<ul>
+					<li class="logo"><a href=""><img src="img/logo.jpeg" width="80"></a></li>
+					<li class="nav-tit">
+						<a href="#" class="nav-tot">YourSPP.com</a>
+					</li>
+					<li class="nav-link">
+						<a href="#" class="nav-login">
+							<i class="fas fas-login fa-user-circle"></i>
+							<?php
+			                  echo $_SESSION['nama'];
+			                  echo " | ";
+			                  echo $_SESSION['level']; 
+			                ?>
+						</a>
+					<li class="nav-link">
+						<a href="logotprosesuser.php" class="nav-list1">Log out</a>
+					</li>
+					<li class="nav-link">
+						<a href="index.php" class="nav-list1">Cara bayar</a>
+					</li>
+					</li>
+					<li class="nav-link">
+						<a href="index.php" class="nav-list1">Tentang kami</a>
+					</li>
+					<li class="nav-link aktif">
+						<a href="formbayar.php" class="nav-list1">Bayar SPP</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<!-- Akhir navbar -->
+ </body>
+ </html>
